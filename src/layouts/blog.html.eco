@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+<img src="<%= @document.image %>" alt="<%= @document.title %>" />
+Source: <a href="<%= @document.post %>">this blog post</a>
+
+<%- @content %>

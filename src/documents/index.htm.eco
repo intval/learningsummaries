@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+<% for item in @getCollection("books").findAll().toJSON(): %>
+<li>
+    <a href="<%= item.url %>"><%= item.title %></a>
+</li>
+<% end %>
+
+<% for item in @getCollection("blogs").findAll().toJSON(): %>
+<li>
+    <a href="<%= item.url %>"><%= item.title %></a>
+</li>
+<% end %>
+
+<% for item in @getCollection("courses").findAll().toJSON(): %>
+<li>
+    <a href="<%= item.url %>"><%= item.title %></a>
+</li>
+<% end %>

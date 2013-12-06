@@ -1,0 +1,13 @@
+.idea
+out
+_.git
+node_modules
+.docpad.db
+
+out/.gitignore
+out/publish.sh
+
+
+
+*.sublime-project
+*.sublime-workspace

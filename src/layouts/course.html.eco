@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h1><%= @getPreparedTitle() %></h1>
+Based on the course <a href="<%= @document.course %>"><%= @document.title %></a>
+
+<br/><br/><br/>
+
+<iframe width="640" height="360" src="<%= @getYoutubeEmbed @document.video %>"> </iframe>
+
+<%- @content %>

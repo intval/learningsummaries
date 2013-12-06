@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<img src="<%= @document.image %>" alt="<%= @document.title %>" />
+
+<%- @content %>
